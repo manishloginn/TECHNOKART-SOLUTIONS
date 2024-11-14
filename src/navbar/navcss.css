@@ -1,0 +1,84 @@
+.logo {
+    display: flex;
+    align-items: center;
+    /* gap: 10px; */
+    /* border: 1px solid; */
+
+    .image {
+        width: 50px;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+      
+        /* Background color for the circle */
+
+        a {
+            padding: 8px 12px;
+
+            border-radius: 50px;
+            /* Make the p tag rounded */
+            text-decoration:  none;
+            color: black;
+            /* Text color */
+            font-weight: bold;
+            /* Optional: bold text */
+            text-align: center;
+            font-size: 20px;
+        }
+    }
+}
+
+.navcontainer {
+    display: flex;
+    /* border: 1px solid ; */
+    padding: 10px;
+    /* width: 100vw; */
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: red; */
+
+    .left {
+        display: flex;
+        /* border: 1px solid; */
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        width: 15vw;
+
+        .paragraph {
+            z-index: 1;
+            font-weight: 500;
+        }
+
+        .icons {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+    }
+
+    .linkstag {
+        width: 50vw;
+        display: flex;
+        justify-content: flex-end;
+        gap: 40px;
+        /* border: 1px solid; */
+        padding: 0px 20px;
+        a {
+            text-decoration: none;
+            color: black;
+            font-weight: 500;
+        }
+    }
+}
