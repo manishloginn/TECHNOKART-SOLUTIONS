@@ -29,18 +29,22 @@
         /* border: 1px solid; */
         width: 90vw;
         margin: auto;
+        gap: 10px;
  
         .cartlower {
             display: flex;
-            justify-content: center;
+            justify-content: space-between;
             align-items: center;
+            flex-wrap: wrap;
             gap: 20px;
             padding: 50px;
-            align-items: start;
+            align-items: center;
             /* border: 1px solid; */
-            /* width: 85vw; */
             .content {
                 text-align: left;
+                width: 50vw;
+                /* border: 1px solid; */
+                
                 
                 p{
                     margin-bottom: 20px;  
@@ -58,8 +62,14 @@
                 }
             }
             .imagesbar {
+                /* border: 1px solid; */
+                width: 30vw;
+                align-items: center;
                 img {
-                    width: 500px;
+                    width: 100%;
+                };
+                iframe {
+                    width: 100%;
                 }
             }
         }

@@ -1,10 +1,13 @@
 body {
-  margin: 0;
- padding: 0;
- box-sizing: border-box;
+  margin: 0; /* Remove default margins */
+  padding: 0; /* Remove default padding */
+  overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@media screen and (min-width : 500px) {
+  body {
+    margin: 0; /* Remove default margins */
+    padding: 0; /* Remove default padding */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+  }
 }
