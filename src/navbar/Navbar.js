@@ -15,7 +15,7 @@ export const Logo = () => {
                 <img src={Image}  alt='logo'/>
             </div>
             <div className='text'>
-                <Link to='/'>TECHNOCRAFT SOLUTIONS</Link>
+                <Link to='/'>TECHNOKART SOLUTIONS</Link>
             </div>
         </div>
     )

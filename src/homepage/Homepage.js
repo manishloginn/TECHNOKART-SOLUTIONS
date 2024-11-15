@@ -99,8 +99,7 @@ const Homepage = () => {
           <div className='content'>
             <h3>Cloud Communication Reimagined</h3>
             <p>As businesses rethink operating models and working environments, they are leveraging technology at the core, bringing multiple devices, platforms and channels into play. Your turn to flow forward with a multi-modal, multi-functional, flexible, scalable, and secure solution that ensures digital connectivity and productivity at all times.
-
-#TimeToDoBig #Business #Technology #SmartDigitalSolutions #Tata</p>
+              #TimeToDoBig #Business #Technology #SmartDigitalSolutions #Tata</p>
           
           </div>
 
@@ -108,13 +107,6 @@ const Homepage = () => {
 
 
       </div>
-
-
-
-
-
-
-
     </div>
   )
 }
