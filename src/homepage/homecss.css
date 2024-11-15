@@ -1,0 +1,140 @@
+@keyframes slideDown {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+        /* border-bottom: 5px solid; */
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+.homecontainer {
+    /* display: flex; */
+    /* border: 1px solid; */
+
+    .lowerherosection {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+ 
+        .cartlower {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            padding: 50px;
+            align-items: start;
+            /* border: 1px solid; */
+            /* width: 85vw; */
+            .content {
+                text-align: left;
+                
+                p{
+                    margin-bottom: 20px;  
+                    line-height: 2;     
+                    font-size: 16px;     
+                    color: #333;    
+                   
+                }
+                .datealag {
+                    color: #0583c7;
+                    font-size: 13.0pt;
+                    vertical-align: baseline;
+                    margin-top: -10px;
+                    font-weight: 500;
+                }
+            }
+            .imagesbar {
+                img {
+                    width: 500px;
+                }
+            }
+        }
+    }
+
+    .heroSection {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding: 20px;
+        flex-direction: column;
+
+        .whatwedo {
+            font-size: 25px;
+            color: #627792;
+            text-align: center;
+
+        }
+
+        .cartcontainer {
+            /* border: 1px solid ; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            width: 100vw;
+
+            .cart {
+                border: 1px solid lightgray;
+                padding: 10px;
+                width: 15vw;
+                border-radius: 10px;
+                box-shadow: 0px 4px 10px 5px rgba(0, 0, 0, 0.1);
+                transition: 1s all ease;
+            }
+          
+
+
+            .cart:hover {
+                transform: scale(1.05);
+                /* Slightly enlarges the element */
+                box-shadow: 0px 8px 15px 5px rgba(0, 0, 0, 0.2);
+            }
+        }
+    }
+
+    .img {
+        width: 100vw;
+        height: 700px;
+        /* Adjust the height as needed */
+        background-image: url('https://bigdatarepublic.nl/media/images/Meetup_-_backdrop.2e16d0ba.fill-960x600.format-webp.webp');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: white;
+
+        .first {
+            font-size: 50px;
+            margin-bottom: -50px;
+            font-weight: 600;
+            animation: slideDown 1s ease-in-out forwards;
+
+        }
+
+        .second {
+            font-size: 80px;
+            animation: slideDown 1s ease-in-out forwards;
+            font-weight: 1200;
+        }
+
+        .third {
+            margin-top: -50px;
+            font-size: 60px;
+            animation: slideDown 1s ease-in-out forwards;
+            font-weight: 1200;
+        }
+
+    }
+}

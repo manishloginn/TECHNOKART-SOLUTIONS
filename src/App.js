@@ -1,8 +1,8 @@
-import logo from './logo.svg';
 import './App.css';
 import Navbar from './navbar/Navbar';
 import { Route,  Routes } from 'react-router-dom';
 import {  lazy, Suspense } from 'react';
+import Footer from './footer/Footer';
 
 const Homepage = lazy(() => import('./homepage/Homepage'))
 
@@ -26,6 +26,8 @@ function App() {
           <Route path='/' element={<LazyLoadingWrapper Component={Homepage} />} />
           {/* <Route path='/services' element={ <LazyLoadingWrapper Component={Services} /> } /> */}
         </Routes>
+
+        <Footer />
 
     </div>
   );

@@ -1,14 +1,18 @@
 import React from 'react'
 import './navcss.css'
 import { Link } from 'react-router-dom'
+
+import Image from '../MY_LOGO-1.png'
+
+
 import QuestionAnswerIcon from '@mui/icons-material/QuestionAnswer';
 
-const Logo = () => {
+export const Logo = () => {
 
     return (
         <div className='logo'>
             <div className='image'>
-                <img src='https://lh3.googleusercontent.com/_rrDROEeXlutzdKf0qfjJ3PxUih_5ciqVsKot2O3_mcf9KCxEUNNQV0kj9WdRDBSzsoasLhphNMiCrcRxc2EQcc=w16383' />
+                <img src={Image}  alt='logo'/>
             </div>
             <div className='text'>
                 <Link to='/'>TECHNOCRAFT SOLUTIONS</Link>
@@ -34,7 +38,6 @@ const Navbar = () => {
                 </div>
                 <div className='paragraph'>
                     <p>Have any Quetions? <br/>Call : 8851463622</p>
-                   
                 </div>
             </div>
         </nav>
