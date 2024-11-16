@@ -41,6 +41,7 @@ const Homepage = () => {
         <div className='homecontainer'>
             <div className='img'>
                 <p className='first'>WELCOME</p>
+                <p className='first'>back</p>
                 <h1 className='second'>Empower Your Brand with</h1>
                 <h3 className='third'>TECHNOKART SOLUTIONS</h3>
                
