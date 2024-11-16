@@ -4,6 +4,7 @@ import getAmenity from '../getAmenity'
 
 import Image1 from '../images/tatatele1.jpg'
 import Image2 from '../images/image2.jpeg'
+import Video from '../images/LOWER.mp4'
 
 
 const whatwedo = [
@@ -40,6 +41,9 @@ const Homepage = () => {
     return (
         <div className='homecontainer'>
             <div className='img'>
+            <video className="background-video" autoPlay loop muted>
+                    <source src={Video} type="video/mp4" />
+                </video> 
                 <p className='first'>WELCOME</p>
                 <h1 className='second'>Empower Your Brand with</h1>
                 <h3 className='third'>TECHNOKART SOLUTIONS</h3>
