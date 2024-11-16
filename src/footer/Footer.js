@@ -9,7 +9,7 @@ const Footer = () => {
 
 
     const openWhatsAppChat = () => {
-        // Replace with the phone number you want to chat with (in international format without '+' sign)
+     
         const phoneNumber = '+918851463622';
         const message = 'Hello, I need assistance'; // Optional message to pre-fill the chat
         const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
